@@ -180,7 +180,7 @@ NSString * const DEFAULT_IMAGE_SCALE = @"center";
 
 	moviePlayer.controlStyle = MPMovieControlStyleDefault;
 
-	moviePlayer.shouldAutoplay = YES;
+	moviePlayer.shouldAutoplay = NO;
 	if (imageView != nil) {
 		[moviePlayer.backgroundView setAutoresizesSubviews:YES];
 		[moviePlayer.backgroundView addSubview:imageView];
